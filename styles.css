@@ -1,0 +1,42 @@
+.generalFlexContainer{
+    display: flex;
+    line-height: 0;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    background-color: grey;
+}
+.leftFlex{
+    display: flex;
+        flex: 8;
+        justify-content: space-around;
+        flex-direction: column wrap;
+        width: auto;
+        height: auto;
+}
+.rightFlex{
+    display: flex;
+        flex: 2;
+        flex-flow: column wrap;
+        align-content: space-around;
+        width: auto;
+        height: auto;
+}
+.upperRow{
+    display: flex;
+        justify-content: space-around;
+        width: auto;
+        height: auto;   
+}
+.middleRow{
+    display: flex;
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+}
+.lowerRow{
+      display: flex;
+        justify-content: space-around;
+        width: auto;
+        height: auto;        
+}
